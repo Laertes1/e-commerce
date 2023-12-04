@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@700&family=Sora:wght@700&display=swap');
+/* Setando as váriaveis */
+:root{
+    --roboto-font: 'Roboto', sans-serif;
+    
+    --gray-color1: #323334;  
+    --yelow-color: #A86A3D;
+}
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilizando o  Body */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+/* Estilizando a ScrollBar */
+::-webkit-scrollbar{
+    width: 7px;
+    opacity: 0.1;
+}
+/* Configurando a barra menor */
+::-webkit-scrollbar-thumb{
+    width: 2px;
+    background-color: #a86a3dd8;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--yelow-color);
+}
