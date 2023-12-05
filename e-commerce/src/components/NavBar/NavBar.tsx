@@ -1,10 +1,10 @@
 import React from "react";
 import './NavBar.css'
 //? Icons
-import Search from "../../assets/search.svg";
-import Bag from "../../assets/bag.svg";
-import Heath from "../../assets/heath.svg";
-import User from "../../assets/user.svg";
+import Search from "../../assets/icons/search.svg";
+import Bag from "../../assets/icons/bag.svg";
+import Heath from "../../assets/icons/heath.svg";
+import User from "../../assets/icons/user.svg";
 
 export default function NavBar() {
   return (

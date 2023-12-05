@@ -1,14 +1,16 @@
 /* Section principal */
-.main-containerPrincipal{
+.main-containerPrincipal {
     width: 100%;
 }
+
 /* Container de práticas */
-.main-containerPrincipal-box1-boasPraticasDaEmpresa{
+.main-containerPrincipal-container1-boasPraticasDaEmpresa {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     width: 100%;
 }
-.main-containerPrincipal-box1-boasPraticasDaEmpresa-boxes{
+
+.main-containerPrincipal-container1-boasPraticasDaEmpresa-boxes {
     display: flex;
     align-items: center;
     flex-direction: flex;
@@ -16,13 +18,15 @@
     gap: 9px;
     margin: 20px 0px 20px;
 }
-.main-containerPrincipal-box1-boasPraticasDaEmpresa-boxes-paragraph{
+
+.main-containerPrincipal-container1-boasPraticasDaEmpresa-boxes-paragraph {
     font-family: var(--roboto-font);
     font-size: 12px;
     color: rgba(0, 0, 0, 0.50);
 }
+
 /*------Banner------*/
-.main-containerPrincipal-box2{
+.main-containerPrincipal-container2 {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
@@ -33,32 +37,56 @@
     background: rgba(219, 208, 204, 0.80);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
 /* Imagen do Banner */
-.main-containerPrincipal-box2-imagem{
+.main-containerPrincipal-container2-imagem {
     width: 594px;
     height: 446px;
 }
-.main-containerPrincipal-box2-box2{
+
+.main-containerPrincipal-container2-box2 {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
-.main-containerPrincipal-box2-box2-span1{
+
+.main-containerPrincipal-container2-box2-span1 {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
+
 /* Texto do Banner */
-.main-containerPrincipal-box2-box2-paragraph{
+.main-containerPrincipal-container2-box2-paragraph {
     color: var(--gray-color);
-    font-family:var(--roboto-font);
+    font-family: var(--roboto-font);
     font-size: 22px;
-    
+
 }
+
 /* Titulo do Banner */
-.main-containerPrincipal-box2-box2-title{
+.main-containerPrincipal-container2-box2-title {
     color: var(--yelow-color);
     font-family: var(--roboto-font);
     font-size: 48px;
     width: 70%;
+}
+
+.main-containerPrincipal-container3 {
+    display: grid;
+    grid-template-columns: 636px 636px;
+    justify-content: center;
+    margin-top: 23px;
+    gap: 1.65%;
+}
+
+/* Produtos */
+
+.main-containerPrincipal-container4{
+    display: grid;
+    grid-template-columns: 306px 306px 306px 306px;
+    gap: 23px;
+    justify-content: center;
+    width: 100%;
+    margin-top: 57px;
 }

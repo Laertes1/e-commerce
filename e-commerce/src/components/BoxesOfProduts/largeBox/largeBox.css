@@ -1,0 +1,33 @@
+/* configurações principal da div */
+.largeBox-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #FAFAFA;
+    width: 636px;
+    height: 368px;
+}
+/* Configuração que será setada na hora de importar o componente na página principal */
+.largeBox-container.background1{
+    background-color: #FAFAFA;
+}
+.largeBox-container.background2{
+    background-color: #EAE9E7;
+}
+/* Image */
+.largeBox-container-box1-image{
+    width: 353px;
+    height: 353px;
+}
+.largeBox-container-box2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+}
+.largeBox-container-box2-texto{
+    color: #323334;
+    font-family: var(--roboto-font);
+    font-size: 28px;
+    width: 100%;
+}
