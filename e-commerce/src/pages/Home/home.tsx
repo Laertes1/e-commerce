@@ -8,15 +8,14 @@ import Chair from "../../assets/images/poltrona.svg";
 import Image1 from "../../assets/images/image 3.svg";
 import Image2 from "../../assets/images/image 4.svg";
 import Image3 from "../../assets/images/Rectangle 6.svg";
-import Image4 from "../../assets/images/Rectangle 12.svg"
-import Image5 from "../../assets/images/Rectangle 11.svg"
-import Image6 from "../../assets/images/Rectangle 10.svg"
-import Image7 from "../../assets/images/Rectangle 7.svg"
-import Image8 from "../../assets/images/Rectangle 8.svg"
-
+import Image4 from "../../assets/images/Rectangle 12.svg";
+import Image5 from "../../assets/images/Rectangle 11.svg";
+import Image6 from "../../assets/images/Rectangle 10.svg";
+import Image7 from "../../assets/images/Rectangle 7.svg";
+import Image8 from "../../assets/images/Rectangle 8.svg";
 
 //? Components
-import { Button } from "../../components/buttons/Button";
+import { ButtonBlack } from "../../components/buttons/buttonBlack/ButtonBlack";
 import ProductType1 from "../../components/BoxesOfProduts/largeBox/largeBox";
 import SmallBoxe from "../../components/BoxesOfProduts/smallBoxe/smallBoxe";
 export default function home() {
@@ -66,7 +65,7 @@ export default function home() {
             </h1>
           </span>
 
-          <Button texto="VIEW NOW" />
+          <ButtonBlack texto="VIEW NOW" />
         </div>
       </section>
       {/*//! Final da parte do banner */}
@@ -90,13 +89,21 @@ export default function home() {
       <section className="main-containerPrincipal-container4">
         <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image3} />
         <SmallBoxe title="Square Clear Glass Box" value={30} image={Image4} />
-        <SmallBoxe title="4-pack Small Ceramic Plates" value={30} image={Image5} />
+        <SmallBoxe
+          title="4-pack Small Ceramic Plates"
+          value={30}
+          image={Image5}
+        />
         <SmallBoxe title="Metal Wire Basket" value={30} image={Image6} />
         <SmallBoxe title="Round Jute Placemat" value={30} image={Image7} />
-        <SmallBoxe title="Large Clear Glass Box
-" value={30} image={Image8} />
+        <SmallBoxe
+          title="Large Clear Glass Box
+"
+          value={30}
+          image={Image8}
+        />
         <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image3} />
-        <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image6} />        
+        <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image6} /> 
       </section>
     </section>
   );

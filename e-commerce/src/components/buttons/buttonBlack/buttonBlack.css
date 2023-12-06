@@ -1,0 +1,14 @@
+.main-containerPrincipal-box2-box2-viewNow-buttonBlack{
+    width: 124px;
+    height: 48px;
+    border: 1px solid var(--gray-color1);
+    color: var(--gray-color1);
+    font-family: var(--roboto-font);
+    background: transparent;
+    transition: 0.3s;
+}
+.main-containerPrincipal-box2-box2-viewNow-buttonBlack:hover{
+    background: var(--gray-color1);
+    color: #fff;
+}
+

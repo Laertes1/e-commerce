@@ -1,0 +1,15 @@
+.main-containerPrincipal-box2-box2-viewNow-buttonWhite{
+    width: 124px;
+    height: 48px;
+    border: 1px solid var(--white-color1);
+    color: var(--white-color1);
+    background: transparent;
+    font-family: var(--roboto-font);
+    transition: 0.3s;
+}
+.main-containerPrincipal-box2-box2-viewNow-buttonWhite:hover{
+    background: var(--gray-color1);
+    color: #fff;
+    border: 1px solid var(--gray-color1);
+}
+
