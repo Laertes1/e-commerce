@@ -13,11 +13,12 @@ import Image5 from "../../assets/images/Rectangle 11.svg";
 import Image6 from "../../assets/images/Rectangle 10.svg";
 import Image7 from "../../assets/images/Rectangle 7.svg";
 import Image8 from "../../assets/images/Rectangle 8.svg";
-
 //? Components
 import { ButtonBlack } from "../../components/buttons/buttonBlack/ButtonBlack";
 import ProductType1 from "../../components/BoxesOfProduts/largeBox/largeBox";
 import SmallBoxe from "../../components/BoxesOfProduts/smallBoxe/smallBoxe";
+import BannerHome from "../../components/Banners/BannerHome/BannerHome";
+import HorizontalBoxer from "../../components/BoxesOfProduts/horizontalBoxer/horizontalBoxer";
 export default function home() {
   return (
     <section className="main-containerPrincipal">
@@ -104,6 +105,12 @@ export default function home() {
         />
         <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image3} />
         <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image6} /> 
+      </section>
+      <section className="main-containerPrincipal-container5">
+        <BannerHome/>
+      </section>
+      <section className="main-containerPrincipal-container6">
+        <HorizontalBoxer/>
       </section>
     </section>
   );

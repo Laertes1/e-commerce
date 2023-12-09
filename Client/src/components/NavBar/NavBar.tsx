@@ -1,4 +1,3 @@
-import React from "react";
 import './NavBar.css'
 //? Icons
 import Search from "../../assets/icons/search.svg";

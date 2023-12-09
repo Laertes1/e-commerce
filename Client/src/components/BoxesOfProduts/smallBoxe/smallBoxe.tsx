@@ -39,7 +39,7 @@ export default function smallBoxe(props: {
       </div>
       <div className="smallBoxe-details">
         <span className="smallBoxe-details-box">
-        <h3 className="smallBoxe-details-box-title">DECOR</h3>
+        <h3 className="smallBoxe-details-box-title">{props.title}</h3>
         <p className="smallBoxe-details-box-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
