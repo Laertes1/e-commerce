@@ -1,0 +1,33 @@
+.horizontalBoxer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 416px;
+    height: 308px;
+    justify-content: flex-start;
+    gap: 5%;
+    background-color: aqua;
+}
+.horizontalBoxer-container2{
+    width: 35%;
+    display: flex;
+    gap: 18.93px;
+    flex-direction: column;
+}
+.horizontalBoxer-container2-box1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+}
+.horizontalBoxer-container2-box1-title{
+    color: #323334;
+    font-family: var(--roboto-font);
+    font-size: 18px;
+}
+.horizontalBoxer-container2-box2-value{
+color: #323334;
+font-family: var(--roboto-font);
+font-size: 24px;
+
+}

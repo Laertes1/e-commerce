@@ -104,13 +104,24 @@ export default function home() {
           image={Image8}
         />
         <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image3} />
-        <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image6} /> 
+        <SmallBoxe title="LINEN BEACH TOWEL" value={30} image={Image6} />
       </section>
       <section className="main-containerPrincipal-container5">
-        <BannerHome/>
+        <BannerHome />
       </section>
+
       <section className="main-containerPrincipal-container6">
-        <HorizontalBoxer/>
+        <div className="main-containerPrincipal-container6-container1">
+            <h3 className="main-containerPrincipal-container6-container1-h3">TOP RATING</h3>
+            <div className="main-containerPrincipal-container6-container1-topRating">
+              <HorizontalBoxer />
+              <HorizontalBoxer />
+              <HorizontalBoxer />
+              <HorizontalBoxer />
+
+
+            </div>
+        </div>
       </section>
     </section>
   );

@@ -28,7 +28,7 @@
 /*------Banner------*/
 .main-containerPrincipal-container2 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -74,7 +74,8 @@
 
 .main-containerPrincipal-container3 {
     display: grid;
-    grid-template-columns: 636px 636px;
+    grid-template-columns: repeat(auto-fit ,minmax(636px , 0fr));
+    align-items: center;
     justify-content: center;
     margin-top: 23px;
     gap: 1.65%;
@@ -84,9 +85,36 @@
 
 .main-containerPrincipal-container4{
     display: grid;
-    grid-template-columns: 306px 306px 306px 306px;
-    gap: 23px;
+    grid-template-columns: repeat(auto-fit,minmax(306px,0fr));
+    column-gap: 1.6%;
+    row-gap: 20px;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    margin-top: 57px;
+    margin-top: 57px;   
+}
+
+
+/* Container6 */
+
+.main-containerPrincipal-container6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.main-containerPrincipal-container6-container1{
+    width: 95%;
+    background-color: aquamarine;
+}
+.main-containerPrincipal-container6-container1-h3{
+    color: #323334;
+    font-family: var(--roboto-font);
+    font-size: 34px;
+}
+.main-containerPrincipal-container6-container1-topRating{
+    margin-top: 4.5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(33.3%, 0.0fr));
+    row-gap: 20px;
 }
