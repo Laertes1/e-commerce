@@ -3,6 +3,7 @@ import Mysql from "mysql";
 import cors from "cors";
 import bodyParser from "body-parser";
 
+
 const app: any = express();
 const appBody: any = bodyParser;
 //! Falta adicionar o database
@@ -26,7 +27,7 @@ app.post("/sendProducts", (req: any, res: any)=>{
 
     const params=[
         productName,
-        productCust,
+        productCust, 
         productImage,
         productSize,
         productDescription,
