@@ -110,7 +110,7 @@ export default function home() {
         <BannerHome />
       </section>
 
-      <section className="main-containerPrincipal-container6">
+      {/* <section className="main-containerPrincipal-container6">
         <div className="main-containerPrincipal-container6-container1">
             <h3 className="main-containerPrincipal-container6-container1-h3">TOP RATING</h3>
             <div className="main-containerPrincipal-container6-container1-topRating">
@@ -122,7 +122,7 @@ export default function home() {
 
             </div>
         </div>
-      </section>
+      </section> */}
     </section>
   );
 }

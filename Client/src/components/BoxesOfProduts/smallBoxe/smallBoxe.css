@@ -1,72 +1,91 @@
-.smallBoxe{
+.smallBoxe {
   width: 306px;
   height: 566px;
 }
-.smallBoxe-container1{
+
+.smallBoxe-container1 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
   height: 100%;
   gap: 32px;
+  transition: 0.7s ;
 }
-.smallBoxe-container1-box1,.smallBoxe-container1-box1-image{
+
+.smallBoxe-container1-box1,
+.smallBoxe-container1-box1-image {
   width: 100%;
 }
 
-.smallBoxe-container1-box2{
+.smallBoxe-container1-box2 {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 13px;
+  gap: 1vh;
+  transition: 0.7s ease-in-out;
 }
-.smallBoxe-container1-box2-title{
-    color: #323334;
-    font-family: var(--roboto-font);
-    font-size: 18px;
+
+.smallBoxe-container1-box2-title {
+  color: #323334;
+  font-family: var(--roboto-font);
+  font-size: 18px;
 
 }
-.smallBoxe-container1-box2-value{
+
+.smallBoxe-container1-box2-value {
   margin-top: 1px;
   width: 100%;
   height: 22px;
   color: #323334;
   font-family: var(--roboto-font);
   font-size: 24px;
- }
 
-  
+}
+
+
 /* Details */
-.smallBoxe-details{
+.smallBoxe-details {
   opacity: 0;
-  background-image: url("../../../assets//images/image\ 3.svg");
   backdrop-filter: blur(2px) contrast(30%);
   height: 566px;
   position: relative;
   bottom: 100%;
-  transition: 0.7s ease-in-out;
+  transition: 0.7s ;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.smallBoxe:hover > .smallBoxe-details{
+.smallBoxe:hover .smallBoxe-container1 {
+  justify-content: center;
+}
+.smallBoxe:hover>.smallBoxe-details {
   opacity: 1;
 }
 
-.smallBoxe-details-box-title{
+.smallBoxe:hover .smallBoxe-container1-box2 {
+  opacity: 0;
+  gap: 1px;
+}
+
+
+
+.smallBoxe-details-box-title {
   font-size: 28px;
   color: var(--white-color1);
   font-family: var(--roboto-font);
 }
-.smallBoxe-details-box-text{
+
+.smallBoxe-details-box-text {
   font-size: 16px;
   font-family: var(--roboto-font);
   color: var(--white-color1);
   width: 100%;
   text-align: start;
 }
-.smallBoxe-details-box{
+
+.smallBoxe-details-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
